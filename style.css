@@ -77,3 +77,55 @@ li {
     margin-bottom: 10px;
     margin-left: -25px;
 }
+
+
+
+
+
+
+
+
+
+.header03 {
+    background: white;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    box-sizing: border-box;
+    height: 60px;
+    align-items: center;
+    display: flex;
+  }
+  
+  .profile-image03 {
+    background: rebeccapurple;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+  }
+  
+  .logo03 {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    margin: 10px;
+  }
+  
+  .notifications03 {
+    border: none;
+    border-radius: 8px;
+    background: rebeccapurple;
+    color: white;
+    box-sizing: border-box;
+    height: 35px;
+    padding: 8px 24px;
+    margin-left: auto;
+  }
+  
+  .header03 a {
+    text-decoration: none;
+    color: rebeccapurple;
+    margin: 10px;
+  }

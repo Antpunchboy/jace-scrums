@@ -8,7 +8,7 @@ body {
   font-family: Besley, serif;
 }
 
-.header {
+.header03 {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -18,7 +18,7 @@ body {
   display: flex;
 }
 
-.profile-image {
+.profile-image03 {
   background: rebeccapurple;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
@@ -27,7 +27,7 @@ body {
   margin: 10px;
 }
 
-.logo {
+.logo03 {
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -35,7 +35,7 @@ body {
   margin: 10px;
 }
 
-button {
+.notifications03 {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
@@ -46,7 +46,7 @@ button {
   margin-left: auto;
 }
 
-a {
+.header03 a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
