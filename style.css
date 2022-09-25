@@ -96,6 +96,11 @@ body {
     margin-left: auto;
 }
 
+.usertext {
+    width: 250px;
+}
+
+
 .mid-row {
     display: flex;
     flex: 648;
@@ -213,3 +218,7 @@ li {
     color: rebeccapurple;
     margin: 10px;
 }
+
+  .header03 a:hover {
+    cursor: pointer;
+  }
