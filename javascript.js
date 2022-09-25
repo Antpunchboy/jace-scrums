@@ -1,5 +1,5 @@
 function creating() {
-    alert("Generating Scrummy pin");
+    alert("Generating Scrummy pin...");
     let randomstring = Math.random().toString(36).slice(-8);
     document.getElementById("output").value = randomstring;
 };
