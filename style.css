@@ -96,9 +96,10 @@ body {
     margin-left: auto;
 }
 
-.usertext {
-    width: 250px;
-}
+.content {
+    border: 1px solid white;
+    padding: 15px;
+  }
 
 
 .mid-row {
