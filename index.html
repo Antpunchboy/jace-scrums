@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Holy Grail</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
   </head>
   <body>
     <script src = "javascript.js"></script>
@@ -14,31 +15,39 @@
     </div>
     <div class="header03">
       <div class="logo03">
-        Select:
+        Select :
       </div>
       <a href="google.com">Create</a></li>
       <a href="google.com">Join</a></li>
-      <button class="notifications03">
-        1 new notification
-      </button>
-      <button class="profile-image03">+</button>
+      <div class = "IDgroup">
+        <div class = "iden">ID :</div>
+        <button class="notifications03">
+          1 new notification
+        </button>
+      </div>
+      <!--<button class="profile-image03">+</button>-->
     </div>
     <div class = "mid-row">
         <div class="sidebar">
+          <div>Text Finder :</div>
+          <input oninput="w3.filterHTML('#id01', 'li', this.value)" placeholder="Search for text..">
+        <!--
         <ul>
-            <!--<li><a href="#">⭐ - link one</a></li>
+            <li><a href="#">⭐ - link one</a></li>
             <li><a href="#">🦸🏽‍♂️ - link two</a></li>
             <li><a href="#">🖌️ - link three</a></li>
-            <li><a href="#">👌🏽 - link four</a></li>-->
+            <li><a href="#">👌🏽 - link four</a></li>
         </ul>
+        -->
         </div>
         <div class = "card-box">
-            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti veritatis minima porro?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti veritatis minima porro?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti veritatis minima porro?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, eveniet? Dolorem dignissimos maiores non delectus possimus dolor nulla repudiandae vitae provident quae, obcaecati ipsam unde impedit corrupti veritatis minima porro?<button>+</button><button>x</button></div>
-            <div class="card">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi quaerat qui iure ipsam maiores velit tempora, deleniti nesciunt fuga suscipit alias vero rem, corporis officia totam saepe excepturi odit ea.<button>+</button><button>x</button></div>
-            <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?<button>+</button><button>x</button></div>
-            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!<button>+</button><button>x</button></div>
-            <div class="card">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis illo ex quas, commodi eligendi aliquam ut, dolor, atque aliquid iure nulla. Laudantium optio accusantium quaerat fugiat, natus officia esse autem?<button>+</button><button>x</button></div>
-            <div class="card">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nihil impedit eius amet adipisci dolorum vel nostrum sit excepturi corporis tenetur cum, dolore incidunt blanditiis. Unde earum minima laboriosam eos!<button>+</button><button>x</button></div>
+          <ul id = "id01">
+            <li><strong class = "cardtitle">Backlog</strong><div class="card"><div class = "usertext">sample text</div><button class = "cross">x</button></div></li>
+            <li><strong class = "cardtitle">To Do</strong><div class="card"><div class = "usertext">sample text</div><button class = "cross">x</button></div></li>
+            <li><strong class = "cardtitle">In Progress</strong><div class="card"><div class = "usertext">sample text</div><button class = "cross">x</button></div></li>
+            <li><strong class = "cardtitle">Review / QA</strong><div class="card"><div class = "usertext">sample text</div><button class = "cross">x</button></div></li>
+            <li><strong class = "cardtitle">Done</strong><div class="card"><div class = "usertext">sample text</div><button class = "cross">x</button></div></li>
+          </ul>
         </div>
     </div>
     <div class="footer">

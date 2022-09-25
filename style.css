@@ -51,6 +51,21 @@ body {
     padding-right: 100px;
     flex-shrink: 0;
 }
+
+.sidebar input {
+    margin-top: 25px;
+    margin-left: 18px;
+}
+
+.sidebar div {
+    color: white;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 18px;
+    white-space: nowrap;
+}
   
 .card {
     border: 1px solid #eee;
@@ -68,10 +83,17 @@ body {
     flex-flow: row nowrap;
 }
 
-.card .button {
-    box-sizing: border-box;
-    width: 5px;
-    height: 5px;
+#id01 {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card button {
+    padding: 5px;
+    height: 30px;
+    margin-top: -10px;
+    margin-right: -15px;
+    margin-left: auto;
 }
 
 .mid-row {
@@ -159,6 +181,21 @@ li {
     margin: 10px;
 }
   
+  .iden {
+    margin-left: auto;
+    font-size: 20px;
+    color: rebeccapurple;
+    margin-top: 5px;
+  }
+
+  .IDgroup {
+    margin-left: auto;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
   .notifications03 {
     border: none;
     border-radius: 8px;
@@ -167,7 +204,8 @@ li {
     box-sizing: border-box;
     height: 35px;
     padding: 8px 24px;
-    margin-left: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
   
   .header03 a {
