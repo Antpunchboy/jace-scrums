@@ -199,12 +199,12 @@ li {
     flex-flow: row nowrap;
     margin-bottom: 10px;
     margin-top: 10px;
+    margin-right: 10px;
+    gap: 10px;
   }
 
-  .notifications03 {
-    border: none;
-    border-radius: 8px;
-    background: rebeccapurple;
+  /*.notifications03 {
+    background: white;
     color: white;
     box-sizing: border-box;
     height: 35px;
@@ -213,6 +213,11 @@ li {
     margin-right: 10px;
     width: 120px;
     padding-left: 7px;
+}*/
+
+.notifications03 #output {
+    border: 10px solid rebeccapurple;
+    border-radius: 8px;
 }
 
 #output {
