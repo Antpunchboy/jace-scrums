@@ -211,6 +211,12 @@ li {
     padding: 8px 24px;
     margin-left: 10px;
     margin-right: 10px;
+    width: 120px;
+    padding-left: 7px;
+}
+
+#output {
+    width: 100px;
 }
   
   .header03 a {

@@ -1,5 +1,7 @@
 function creating() {
-    alert("poops");
+    alert("Generating Scrummy pin");
+    let randomstring = Math.random().toString(36).slice(-8);
+    document.getElementById("output").value = randomstring;
 };
 
 function joining() {
