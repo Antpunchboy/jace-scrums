@@ -96,7 +96,7 @@ body {
     margin-left: auto;
 }
 
-.content {
+.content1,.content2,.content3,.content4,.content5 {
     border: 1px solid white;
     padding: 15px;
   }
