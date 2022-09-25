@@ -1,14 +1,39 @@
+@media (max-width: 580px) {
+    .mid-row {
+        overflow-x: scroll;
+    }
+    .sidebar {
+        flex-shrink: 2;
+    }
+    .card-box {
+        flex-shrink: 1;
+    }
+    ::-webkit-scrollbar {
+        -webkit-appearance: none;
+        width: 7px;
+    }
+      
+      ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+        background-color: lightgrey;
+        box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+    }
+}
+
+
 html {
     background: darkmagenta;
+    min-height: 100vh;
+    min-width: 100%;
+    padding: 0px;
 }
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0px;
-    min-width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0px;
 }
   
 .header {
@@ -21,11 +46,13 @@ body {
     font-size: 25px;
     margin-top: 0px;
     margin-bottom: 0px;
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
     padding-top: 15px;
     padding-bottom: 15px;
     font-weight: 900px;
     min-width: 100%;
+
+    flex: 59;
 }
   
 .footer {
@@ -34,9 +61,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
+    /*flex-shrink: 0;*/
     padding-top: 15px;
     padding-bottom: 15px;
+
+    flex: 50
 }
   
 .sidebar {
@@ -51,23 +80,27 @@ body {
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
     box-sizing: border-box;
+    height: 284px;
     width: 300px;
     margin: 20px;
     padding: 20px;
     font-size: 14px; 
     padding-bottom: 150px;
+    overflow-y: scroll;
 }
 
 .mid-row {
     display: flex;
-    flex: 1;
+    flex: 648;
+    /*min-width: 100%;*/
 }
 
 .card-box {
     display: flex;
     flex-flow: row wrap;
+    flex: 1;
     background-color: white;
-    min-width: 100%;
+    margin: 0px;
 }
 
 ul {
@@ -100,6 +133,11 @@ li {
     height: 60px;
     align-items: center;
     display: flex;
+    flex-wrap: wrap;
+    /*flex: none;*/
+    margin-right: 0px;
+
+    flex: 59;
   }
   
   .profile-image03 {
