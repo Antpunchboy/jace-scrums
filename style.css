@@ -2,12 +2,6 @@
     .mid-row {
         overflow-x: scroll;
     }
-    .sidebar {
-        flex-shrink: 2;
-    }
-    .card-box {
-        flex-shrink: 1;
-    }
     ::-webkit-scrollbar {
         -webkit-appearance: none;
         width: 7px;
