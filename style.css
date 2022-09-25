@@ -1,20 +1,3 @@
-@media (max-width: 580px) {
-    .mid-row {
-        overflow-x: scroll;
-    }
-    ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 7px;
-    }
-      
-      ::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-        background-color: lightgrey;
-        box-shadow: 0 0 1px rgba(255, 255, 255, .5);
-    }
-}
-
-
 html {
     background: darkmagenta;
     min-height: 100vh;
@@ -87,6 +70,18 @@ body {
     display: flex;
     flex: 648;
     /*min-width: 100%;*/
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+  
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: lightgrey;
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
 
 .card-box {
