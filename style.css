@@ -20,7 +20,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    font-size: 25px;
+    font-size: 28px;
     margin-top: 0px;
     margin-bottom: 0px;
     /*flex-shrink: 0;*/
@@ -64,6 +64,14 @@ body {
     font-size: 14px; 
     padding-bottom: 150px;
     overflow-y: scroll;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.card .button {
+    box-sizing: border-box;
+    width: 5px;
+    height: 5px;
 }
 
 .mid-row {
@@ -127,7 +135,7 @@ li {
     margin-right: 0px;
 
     flex: 59;
-  }
+}
   
   .profile-image03 {
     background: rebeccapurple;
@@ -136,7 +144,12 @@ li {
     width: 48px;
     height: 48px;
     margin: 10px;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
   
   .logo03 {
     color: rebeccapurple;
@@ -144,7 +157,7 @@ li {
     font-weight: 900;
     font-style: italic;
     margin: 10px;
-  }
+}
   
   .notifications03 {
     border: none;
@@ -155,10 +168,10 @@ li {
     height: 35px;
     padding: 8px 24px;
     margin-left: auto;
-  }
+}
   
   .header03 a {
     text-decoration: none;
     color: rebeccapurple;
     margin: 10px;
-  }
+}
