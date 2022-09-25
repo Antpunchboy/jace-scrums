@@ -221,15 +221,16 @@ li {
 }
 
 #output {
-    width: 100px;
+    width: 65px;
+    resize: none;
 }
   
-  .header03 a {
+.header03 a {
     text-decoration: none;
     color: rebeccapurple;
     margin: 10px;
 }
 
-  .header03 a:hover {
+.header03 a:hover {
     cursor: pointer;
-  }
+}
