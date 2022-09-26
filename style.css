@@ -166,8 +166,8 @@ body {
 .content1,.content2,.content3,.content4,.content5 {
     border: 1px solid white;
     padding: 15px;
-    width: 180px;
-    height: 200px;
+    min-width: 180px;
+    min-height: 200px;
     overflow-y: scroll;
     overflow-x: hidden;
 }
