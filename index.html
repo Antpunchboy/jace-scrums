@@ -31,6 +31,11 @@
           <div>Text Finder :</div>
           <input oninput="w3.filterHTML('#id01', 'li', this.value)" placeholder="Search for text..">
           <div class = "comments">Comments :</div>
+          <!-- add id's from now on, when needed to return value, due to recent revalation on get function(js) -->
+          <div class = "btngroup">
+            <button class = "comment_save" onclick = "commentsaving()">save</button>
+            <button class = "comment_clear">clear</button>
+          </div>
           <div class = "chat">
             <input class = "chatext" id = "chatt" placeholder="Write comments..">
             <button onclick = "sending()">></button>

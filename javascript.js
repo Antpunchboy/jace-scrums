@@ -32,7 +32,10 @@ window.onload = function() {
     if(localStorage.getItem('content5')) {
         document.querySelector('.content5').innerHTML = localStorage.getItem('content5');
   };
-}
+    if(localStorage.getItem('comment')) {
+        document.querySelector('.comment_text').innerHTML = localStorage.getItem('comment');
+  };
+};
 
 //let editBtn = document.querySelector('#edit_content');
 //let content = document.querySelector('.content');
@@ -47,18 +50,21 @@ function saving2() {
 
 function saving3() {
     localStorage.setItem('content3', document.querySelector('.content3').innerHTML);
-}
+};
 
 function saving4() {
     localStorage.setItem('content4', document.querySelector('.content4').innerHTML);
-}
+};
 
 function saving5() {
     localStorage.setItem('content5', document.querySelector('.content5').innerHTML);
 }
 
 function sending() {
-    document.getElementById("comtext").value += document.getElementById("chatt").value + `\n` + `\n`;
+    document.getElementById("comtext").innerHTML += document.getElementById("chatt").value + `\n` + `\n`;
     document.getElementById("chatt").value = "";
-}
+};
 
+function commentsaving() {
+    localStorage.setItem('comment', document.querySelector('.comment_text').innerHTML);
+};
