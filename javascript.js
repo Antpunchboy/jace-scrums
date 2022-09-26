@@ -58,7 +58,7 @@ function saving5() {
 }
 
 function sending() {
-    document.getElementById("comtext").innerHTML += `\n` + `\n` + document.getElementById("chatt").value;
-    alert(document.getElementById("chatt").value);
+    document.getElementById("comtext").value += document.getElementById("chatt").value + `\n` + `\n`;
+    document.getElementById("chatt").value = "";
 }
 
