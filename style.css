@@ -116,6 +116,8 @@ body {
     min-height: 600px;
     margin-bottom: 10px;
     flex: 1;
+    overflow-y: hidden;
+    overflow-x: wrap;
 }
   
 .card {

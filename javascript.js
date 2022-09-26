@@ -58,5 +58,7 @@ function saving5() {
 }
 
 function sending() {
-    let comment = document.getElementsByClassName("chatext").textContent;
+    document.getElementById("comtext").innerHTML += `\n` + `\n` + document.getElementById("chatt").value;
+    alert(document.getElementById("chatt").value);
 }
+

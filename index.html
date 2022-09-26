@@ -32,10 +32,10 @@
           <input oninput="w3.filterHTML('#id01', 'li', this.value)" placeholder="Search for text..">
           <div class = "comments">Comments :</div>
           <div class = "chat">
-            <input class = "chatext" placeholder="Write comments..">
-            <button>></button>
+            <input class = "chatext" id = "chatt" placeholder="Write comments..">
+            <button onclick = "sending()">></button>
           </div>
-          <textarea readonly></textarea>
+          <textarea class = "comment_text" id = "comtext" readonly></textarea>
         <!--
         <ul>
             <li><a href="#">⭐ - link one</a></li>
