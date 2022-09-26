@@ -66,6 +66,40 @@ body {
     margin-left: 18px;
     white-space: nowrap;
 }
+
+.sidebar .comments {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.sidebar .chat {
+    display: flex;
+    flex-flow: row nowrap;
+    min-width: 200px;
+    gap: 10px;
+}
+
+.sidebar .chat input {
+    box-sizing: border-box;
+    min-width: 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.sidebar .chat button {
+    max-width: 20px;
+    margin-left: auto;
+    margin-top: 20px;
+    background: none;
+    font-size: 20px;
+    font-weight: 900;
+    border-style: none;
+    color: darkmagenta;
+}
+
+.sidebar .chat button:hover {
+    cursor: pointer;
+}
   
 .card {
     border: 1px solid #eee;
