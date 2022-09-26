@@ -56,3 +56,7 @@ function saving4() {
 function saving5() {
     localStorage.setItem('content5', document.querySelector('.content5').innerHTML);
 }
+
+function sending() {
+    let comment = document.getElementsByClassName("chatext").textContent;
+}
