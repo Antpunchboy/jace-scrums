@@ -63,8 +63,13 @@ function saving5() {
 function sending() {
     document.getElementById("comtext").innerHTML += document.getElementById("chatt").value + `\n` + `\n`;
     document.getElementById("chatt").value = "";
+    // Revelation: getElementsByClassName is to getElementById like querySelectorall is to querySelector
 };
 
 function commentsaving() {
     localStorage.setItem('comment', document.querySelector('.comment_text').innerHTML);
 };
+
+function commentclearing() {
+    document.querySelector(".comment_text").innerHTML = "";
+}
