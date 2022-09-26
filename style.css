@@ -130,7 +130,7 @@ body {
     min-height: 600px;
     margin-bottom: 10px;
     flex: 1;
-    overflow-y: hidden;
+    overflow-y: scroll;
     overflow-x: wrap;
 }
   
@@ -145,7 +145,6 @@ body {
     padding: 20px;
     font-size: 14px; 
     padding-bottom: 150px;
-    overflow-y: scroll;
     display: flex;
     flex-flow: row nowrap;
 }
@@ -167,6 +166,10 @@ body {
 .content1,.content2,.content3,.content4,.content5 {
     border: 1px solid white;
     padding: 15px;
+    width: 180px;
+    height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 
