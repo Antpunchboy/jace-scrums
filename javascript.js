@@ -61,7 +61,7 @@ function saving5() {
 }
 
 function sending() {
-    document.getElementById("comtext").innerHTML += document.getElementById("chatt").value + `\n` + `\n`;
+    document.getElementById("comtext").innerHTML += "You: " + document.getElementById("chatt").value + `\n` + `\n`;
     document.getElementById("chatt").value = "";
     // Revelation: getElementsByClassName is to getElementById like querySelectorall is to querySelector
 };
