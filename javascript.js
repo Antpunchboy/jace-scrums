@@ -12,6 +12,7 @@ function joining() {
     }
     else if (pin !== null) {
         alert(`entering Scrummy [${pin}]...`);
+        document.getElementById("output").value = pin;
     }
 };
 
