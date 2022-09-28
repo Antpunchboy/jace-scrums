@@ -7,7 +7,7 @@ function creating() {
 function joining() {
     let pin = prompt(`Type in the Scrummy pin
 (does not work, still learning about mongoDB database to let people create their own accounts)`);
-    if (pin === "") {
+    if (pin === "", pin.trim().length === 0) {
         alert("Invalid pin");
     }
     else if (pin !== null) {
