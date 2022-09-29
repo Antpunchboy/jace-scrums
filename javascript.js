@@ -11,8 +11,8 @@ function joining() {
         alert("Invalid pin");
     }
     else if (pin !== null) {
-        alert(`entering Scrummy [${pin}]...`);
-        document.getElementById("output").value = pin;
+        alert(`entering Scrummy [${pin.replace(/\s/g, "")}]...`);
+        document.getElementById("output").value = pin.replace(/\s/g, "");
     }
 };
 
