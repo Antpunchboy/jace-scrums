@@ -234,6 +234,7 @@ li {
     margin-right: 0px;
 
     flex: 59;
+    padding-bottom: 5px;
 }
   
   .profile-image03 {
@@ -256,6 +257,7 @@ li {
     font-weight: 900;
     font-style: italic;
     margin: 10px;
+    margin-bottom: 5px;
 }
   
   .iden {
@@ -263,13 +265,15 @@ li {
     font-size: 20px;
     color: rebeccapurple;
     margin-top: 5px;
+    /*margin-top: auto;
+    margin-bottom: auto;*/
   }
 
   .IDgroup {
     margin-left: auto;
     display: flex;
     flex-flow: row nowrap;
-    margin-bottom: 10px;
+    /*margin-bottom: 5px;*/
     margin-top: 10px;
     margin-right: 10px;
     gap: 10px;
@@ -301,6 +305,7 @@ li {
     text-decoration: none;
     color: rebeccapurple;
     margin: 10px;
+    margin-bottom: 5px;
 }
 
 .header03 a:hover {
