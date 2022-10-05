@@ -26,7 +26,7 @@ body {
     /*flex-shrink: 0;*/
     padding-top: 15px;
     padding-bottom: 15px;
-    font-weight: 900px;
+    font-weight: 900;
     min-width: 100%;
 
     flex: 59;
