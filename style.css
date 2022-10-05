@@ -311,3 +311,7 @@ li {
 .header03 a:hover {
     cursor: pointer;
 }
+
+[contenteditable] {
+    outline: 0px solid transparent;
+}
