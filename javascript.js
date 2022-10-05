@@ -47,7 +47,7 @@ function saving1() {
 
 function saving2() {
     localStorage.setItem('content2', document.querySelector('.content2').innerHTML);
-}
+};
 
 function saving3() {
     localStorage.setItem('content3', document.querySelector('.content3').innerHTML);
@@ -59,7 +59,7 @@ function saving4() {
 
 function saving5() {
     localStorage.setItem('content5', document.querySelector('.content5').innerHTML);
-}
+};
 
 function sending() {
     document.getElementById("comtext").innerHTML += "You: " + document.getElementById("chatt").value + `\n` + `\n`;
@@ -73,4 +73,17 @@ function commentsaving() {
 
 function commentclearing() {
     document.querySelector(".comment_text").innerHTML = "";
-}
+};
+
+function resetting() {
+    let reset_decision = prompt(`Are you sure?
+(type YES to reset)`);
+    if (reset_decision === "YES") {
+        alert("Resetting...");
+        localStorage.clear();
+        window.location.reload();
+    }
+    else {
+        alert("Reset cancelled");
+    };
+};
