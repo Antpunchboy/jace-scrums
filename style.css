@@ -93,6 +93,10 @@ body {
     border-radius: 15px;
 }
 
+.btngroup button:hover {
+    cursor: pointer;
+}
+
 .sidebar .chat {
     display: flex;
     flex-flow: row nowrap;
@@ -161,6 +165,10 @@ body {
     margin-right: -15px;
     margin-left: auto;
     border-radius: 15px;
+}
+
+.card button:hover {
+    cursor: pointer;
 }
 
 .content1,.content2,.content3,.content4,.content5 {
