@@ -137,6 +137,10 @@ body {
     overflow-y: scroll;
     overflow-x: wrap;
 }
+
+.cardtitle {
+    margin-left: 20px;
+}
   
 .card {
     border: 1px solid #eee;
@@ -189,19 +193,19 @@ body {
 }
 
 ::-webkit-scrollbar {
-    display: none;
+    -webkit-appearance: none;
+    width: 7px;
 }
 
-@media (max-width: 580px) {
-    ::-webkit-scrollbar {
-        -webkit-appearance: none;
-        width: 7px;
-    }
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: lightgrey;
+    box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
 
-    ::-webkit-scrollbar-thumb {
-        border-radius: 4px;
-        background-color: lightgrey;
-        box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+@media (min-width: 580px) {
+    ::-webkit-scrollbar {
+        display: none;
     }
 }
 
