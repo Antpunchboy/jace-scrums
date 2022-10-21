@@ -131,7 +131,7 @@ body {
     margin-left: 20px;
     margin-top: 10px;
     resize: none;
-    min-height: 600px;
+    /*min-height: 600px;*/
     margin-bottom: 10px;
     flex: 1;
     overflow-y: scroll;
@@ -147,8 +147,8 @@ body {
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
     border-radius: 4px;
     box-sizing: border-box;
-    height: 284px;
-    width: 300px;
+    min-height: 284px;
+    min-width: 300px;
     margin: 20px;
     padding: 20px;
     font-size: 14px; 
@@ -203,7 +203,7 @@ body {
     box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
 
-@media (min-width: 580px) {
+@media (min-width: 595px) {
     ::-webkit-scrollbar {
         display: none;
     }
