@@ -1,3 +1,4 @@
 # scrummies
+personal project 2
 
-transferred from "holy grail layout" project in private repository
+scrumboard/task management website
